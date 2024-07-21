@@ -1,0 +1,23 @@
+{
+  "name": "randomuserlist",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src/**/*.{js,vue}"
+  },
+  "keywords": [],
+  "author": "Zhandos",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.4",
+    "vue": "^3.4.33"
+  },
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.27.0",
+    "jsdoc": "^4.0.3"
+  }
+}

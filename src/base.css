@@ -1,0 +1,21 @@
+:root {
+  --black : #000000;
+  --white : #fff;
+  --gray : rgba(235, 235, 235, .6);
+  --bg-color: #1a1a1a;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  background: var(--bg-color);
+}
+body {
+  margin: 10px;
+  color: var(--white);
+  text-align: center;
+}
